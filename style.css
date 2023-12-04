@@ -118,7 +118,7 @@ nav {
         margin: 50px 0 20px 0;
     }
     #two {
-        align-self: auto; /* Reset align-self property */
+        align-self: center; /* Reset align-self property */
         margin-top: 20px;
         margin-left: 0; /* Reset margin */
     }
@@ -226,7 +226,7 @@ button:active {
     /* CAFE MENU */
     .cafe-menu {
         background-color: #624759;
-        padding: 20px;
+        padding: 1rem;
     }
 
     .menu {
@@ -326,7 +326,8 @@ button:active {
     }
 
         .cafe-menu {
-            width: 21.5rem;
+            width: 23.9rem;
+            padding: 0;
         }
     }
 
@@ -340,7 +341,7 @@ button:active {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 15px;
+    padding: 16px;
     align-items: stretch;
     width: 100%;
 }
@@ -387,7 +388,8 @@ button:active {
 
  @media screen and (max-width: 355px) {
     .gallery-container{
-        width: 21.5rem;
+        width: 23.95rem;
+        padding: 20px 0;
     }
  }
  /* FOOTER */
@@ -413,6 +415,6 @@ footer {
 
 @media screen and (max-width: 355px) {
     footer {
-        width: 23.5rem;
+        width: 23.95rem;
     }
  }
