@@ -52,7 +52,7 @@ nav {
     .nav {
         display: block;
         text-align: center;
-        min-width: 21.4rem;
+        min-width: 23.95rem;
     /* I was targeting .nav h1 to center the h1 but I needed to tag the whole class itself */
 }
 }
@@ -106,7 +106,8 @@ nav {
         align-items: center; /* Center align items */
         height: 48rem;
         justify-content: space-between;
-        min-width: 23.9rem;
+        min-width: 23.95rem;
+        padding: 1rem 0;
     }
 
     .banner-box {
@@ -153,7 +154,7 @@ nav {
     }
 
     .reservations {
-        width: 23.9rem;
+        min-width: 23.95rem;
     }
    
 }
@@ -219,7 +220,7 @@ button:active {
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 23.5rem;
+            min-width: 23.95rem;
         }
     }
 
@@ -326,7 +327,7 @@ button:active {
     }
 
         .cafe-menu {
-            width: 23.9rem;
+            min-width: 23.95rem;
             padding: 0;
         }
     }
@@ -415,6 +416,6 @@ footer {
 
 @media screen and (max-width: 355px) {
     footer {
-        width: 23.95rem;
+        min-width: 23.95rem;
     }
  }
