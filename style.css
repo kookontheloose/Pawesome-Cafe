@@ -113,6 +113,7 @@ nav {
     .banner-box {
         background-color: rgb(224, 255, 153, 0.7);
         max-width: 22rem;
+        min-height: 15rem;
     }
 
     #one {
@@ -327,7 +328,7 @@ button:active {
     }
 
         .cafe-menu {
-            min-width: 23.95rem;
+            min-width: 23.96rem;
             padding: 0;
         }
     }
@@ -342,14 +343,14 @@ button:active {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 16px;
+    padding: 1rem;
     align-items: stretch;
     width: 100%;
 }
       
  .box {
-    height: 200px;
-    width: 300px;
+    height: 12.5rem;
+    width: 18.75rem;
     background-color: dodgerblue;
     display: inline-block;
     background-size: cover;
