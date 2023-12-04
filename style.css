@@ -52,7 +52,7 @@ nav {
     .nav {
         display: block;
         text-align: center;
-
+        min-width: 21.5rem;
     /* I was targeting .nav h1 to center the h1 but I needed to tag the whole class itself */
 }
 }
@@ -63,10 +63,10 @@ nav {
     background-image: url(resources/bannertwo.png);
     min-height: 42rem;
     min-width: 100%;
+    display: flex; 
     background-size: cover;
     background-position: center; /* Center the image */
-    background-repeat: no-repeat;
-    display: flex;   
+    background-repeat: no-repeat;  
     margin-bottom: 50px;
 
 }
@@ -106,12 +106,12 @@ nav {
         align-items: center; /* Center align items */
         height: 48rem;
         justify-content: space-between;
+        min-width: 24rem;
     }
 
-    .box {
-        width: 80%; /* Adjust box width */
-        margin: 10px 0; /* Adjust margin for spacing between boxes */
-        height: 12.5rem;
+    .banner-box {
+        background-color: rgb(224, 255, 153, 0.7);
+        max-width: 22rem;
     }
 
     #one {
@@ -124,13 +124,13 @@ nav {
     }
 }
 
-@media screen and (max-width: 780px) {
+/* @media screen and (max-width: 780px) {
     .box {
         width: 80%;
         margin: 10px 0;
         height: 18rem;
     }
-} 
+}  */
 
 /* RESERVATION */
 
@@ -150,6 +150,10 @@ nav {
 @media screen and (max-width: 840px) {
     .reservations h2 {
         padding: 50px;
+    }
+
+    .reservations {
+        width: 23.9rem;
     }
    
 }
@@ -215,6 +219,7 @@ button:active {
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 23.9rem;
         }
     }
 
@@ -315,10 +320,14 @@ button:active {
         
         img {
         border-radius: 200px;
-        width: 400px;
-        height: 400px;
+        width: 20rem;
+        height: 20rem;
         object-fit: cover;
     }
+
+        .cafe-menu {
+            width: 21.5rem;
+        }
     }
 
 
@@ -333,6 +342,7 @@ button:active {
     gap: 20px;
     padding: 15px;
     align-items: stretch;
+    width: 100%;
 }
       
  .box {
@@ -375,6 +385,11 @@ button:active {
     background-image: url(./resources/scratchykitty.jpg);
  }
 
+ @media screen and (max-width: 355px) {
+    .gallery-container{
+        width: 21.5rem;
+    }
+ }
  /* FOOTER */
 footer {
     padding: 30px 0;
@@ -395,3 +410,9 @@ footer {
     padding: 30px;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 355px) {
+    footer {
+        width: 23.5rem;
+    }
+ }
