@@ -52,7 +52,7 @@ nav {
     .nav {
         display: block;
         text-align: center;
-        min-width: 21.5rem;
+        min-width: 21.4rem;
     /* I was targeting .nav h1 to center the h1 but I needed to tag the whole class itself */
 }
 }
@@ -106,7 +106,7 @@ nav {
         align-items: center; /* Center align items */
         height: 48rem;
         justify-content: space-between;
-        min-width: 24rem;
+        min-width: 23.9rem;
     }
 
     .banner-box {
@@ -219,7 +219,7 @@ button:active {
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 23.9rem;
+            width: 23.5rem;
         }
     }
 
